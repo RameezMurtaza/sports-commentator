@@ -3,13 +3,13 @@
     "name": "sports-commentator",
     "slug": "sports-commentator",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "landscape",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#4c8cdc"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -20,11 +20,22 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#4c8cdc"
+      },
+      "extra": {
+        "eas": {
+          "projectId": "53cb4eab-e572-4707-b6cb-5c77e2eb5f3b"
+        }
+      },
+      "package": "com.sport.explanationsinsports"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f7cc39bc-0580-4057-8cfc-05996e3152af"
+      }
     }
   }
 }
